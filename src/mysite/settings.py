@@ -35,6 +35,7 @@ INSTALLED_APPS = [
 
     #personal app
     'personal',
+    'account',
 
 
     #predefined apps
@@ -73,6 +74,8 @@ TEMPLATES = [
         },
     },
 ]
+
+AUTH_USER_MODEL = 'account.Account'
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
