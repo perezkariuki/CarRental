@@ -6,9 +6,9 @@
 <h1>This is the body</h1>
 <p>Here is the body of the personal home</p>
 
-{% for question in questions%}
+{% for account in accounts%}
 
-    {% include 'personal/snippets/body-snippets.html' with value=question %}
+    <p>{{account}}</p>
 
 {% endfor %}
 
